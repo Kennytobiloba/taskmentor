@@ -22,8 +22,8 @@ function HomeSection() {
           </button>
         
       </div>
-      <div className="w-[100%] md:w-[53%]  flex items-center justify-center overflow-visible">
-      <img src="./image/mentorhero.png" alt="" className="w-full " />
+      <div className="w-[90%] md:w-[53%]  flex items-center justify-center ">
+      <img src="./image/mentorhero.png" alt="" className="w-full" />
         </div>
        
   
