@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Aboutus from "./components/Aboutus";
+import Application from "./components/Application";
+import EndSection from "./components/EndSection";
+import HomeSection from "./components/HomeSection";
+import LearningSection from "./components/LearningSection";
+import Navbar from "./components/Navbar";
+import ReviewSection from "./components/ReviewSection";
+import FooterSection from "./components/FooterSection";
 
-function App() {
+
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  
+      <div>
+      <Navbar/>
+<HomeSection></HomeSection>
+<ReviewSection/>
 
-export default App;
+<Application/>
+<LearningSection></LearningSection>
+
+<Aboutus/>
+<EndSection/>
+<FooterSection/>
+
+
+
+    </div>
+    
+    
+  )
+}
